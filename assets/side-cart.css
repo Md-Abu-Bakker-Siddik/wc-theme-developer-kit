@@ -1,0 +1,58 @@
+/* WC TDK Side Cart Styles */
+.wc-tdk-side-cart {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.wc-tdk-side-cart-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.wc-tdk-side-cart-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    max-width: 90%;
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.wc-tdk-side-cart.active .wc-tdk-side-cart-panel {
+    transform: translateX(0);
+}
+
+.wc-tdk-side-cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.wc-tdk-side-cart-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.wc-tdk-side-cart-content {
+    height: calc(100% - 100px);
+    overflow-y: auto;
+}

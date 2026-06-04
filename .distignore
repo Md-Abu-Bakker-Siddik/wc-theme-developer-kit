@@ -1,0 +1,11 @@
+.git
+.gitignore
+.distignore
+phpcs.xml.dist
+.cursor
+*.md
+!readme.txt
+node_modules
+vendor
+.DS_Store
+Thumbs.db

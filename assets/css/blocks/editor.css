@@ -1,0 +1,111 @@
+/* Editor Styles */
+.wc-tdk-product-category-block-preview,
+.wc-tdk-product-list-block-preview,
+.wc-tdk-product-tabs-block-preview,
+.wc-tdk-wc-products-block-preview,
+.wc-tdk-info-banner-block-preview,
+.wc-tdk-header-cart-block-preview,
+.wc-tdk-header-search-block-preview,
+.wc-tdk-account-block-preview,
+.wc-tdk-wishlist-block-preview,
+.wc-tdk-vertical-menu-block-preview {
+    padding: 20px;
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.wc-tdk-product-category-block-preview h3,
+.wc-tdk-product-list-block-preview h3,
+.wc-tdk-product-tabs-block-preview h3,
+.wc-tdk-wc-products-block-preview h3,
+.wc-tdk-info-banner-block-preview h3,
+.wc-tdk-header-cart-block-preview h3,
+.wc-tdk-header-search-block-preview h3,
+.wc-tdk-account-block-preview h3,
+.wc-tdk-wishlist-block-preview h3,
+.wc-tdk-vertical-menu-block-preview h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.wc-tdk-product-category-block-preview p,
+.wc-tdk-product-list-block-preview p,
+.wc-tdk-product-tabs-block-preview p,
+.wc-tdk-wc-products-block-preview p,
+.wc-tdk-info-banner-block-preview p,
+.wc-tdk-header-cart-block-preview p,
+.wc-tdk-header-search-block-preview p,
+.wc-tdk-account-block-preview p,
+.wc-tdk-wishlist-block-preview p,
+.wc-tdk-vertical-menu-block-preview p {
+    margin: 0;
+    color: #646970;
+}
+
+/* WC Products block – isotope grid (widget/block shared markup) */
+.editor-styles-wrapper .wc-tdk-wc-products-block,
+.wc-tdk-wc-products-block {
+    width: 100%;
+    max-width: none;
+}
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .isotope-layout-inner,
+.wc-tdk-wc-products-block .isotope-layout-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .isotope-item,
+.wc-tdk-wc-products-block .isotope-item {
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-1 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-1 .isotope-item { width: 100%; }
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-2 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-2 .isotope-item { width: 50%; }
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-3 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-3 .isotope-item { width: 33.333%; }
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-4 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-4 .isotope-item { width: 25%; }
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-5 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-5 .isotope-item { width: 20%; }
+
+.editor-styles-wrapper .wc-tdk-wc-products-block .products.grid-6 .isotope-item,
+.wc-tdk-wc-products-block .products.grid-6 .isotope-item { width: 16.666%; }
+
+/* Fallback WooCommerce loop */
+.editor-styles-wrapper .wc-tdk-wc-products-block .woocommerce ul.products,
+.wc-tdk-wc-products-block .woocommerce ul.products {
+    display: grid;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wc-tdk-wc-products-block .woocommerce ul.products.columns-1 { grid-template-columns: repeat(1, 1fr); }
+.wc-tdk-wc-products-block .woocommerce ul.products.columns-2 { grid-template-columns: repeat(2, 1fr); }
+.wc-tdk-wc-products-block .woocommerce ul.products.columns-3 { grid-template-columns: repeat(3, 1fr); }
+.wc-tdk-wc-products-block .woocommerce ul.products.columns-4 { grid-template-columns: repeat(4, 1fr); }
+
+.wc-tdk-product-category-block .wc-tdk-product-categories {
+    display: grid;
+    gap: 20px;
+}
+
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-1 { grid-template-columns: 1fr; }
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-5 { grid-template-columns: repeat(5, 1fr); }
+.wc-tdk-product-category-block .wc-tdk-product-categories.grid-6 { grid-template-columns: repeat(6, 1fr); }

@@ -1,0 +1,96 @@
+/* WC TDK Quick View Styles */
+.wc-tdk-quick-view-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.wc-tdk-quick-view-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.wc-tdk-quick-view-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 900px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.wc-tdk-quick-view-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+}
+
+.wc-tdk-quick-view-product {
+    display: flex;
+    gap: 30px;
+}
+
+.wc-tdk-quick-view-image {
+    flex: 1;
+}
+
+.wc-tdk-quick-view-image img {
+    width: 100%;
+    height: auto;
+}
+
+.wc-tdk-quick-view-details {
+    flex: 1;
+}
+
+.wc-tdk-quick-view-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.wc-tdk-quick-view-description {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.wc-tdk-quick-view-loading,
+.wc-tdk-quick-view-error {
+    margin: 0;
+    padding: 24px;
+    text-align: center;
+}
+
+.wc-tdk-quick-view-error {
+    color: #b32d2e;
+}
+
+body.wc-tdk-quick-view-open {
+    overflow: hidden;
+}
+
+.wc-tdk-quick-view-modal.is-open {
+    display: block;
+}
+
+.wc-tdk-quick-view-add-to-cart .button {
+    display: inline-block;
+    margin-top: 8px;
+}
